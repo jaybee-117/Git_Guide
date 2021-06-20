@@ -1,5 +1,7 @@
 #!/bin/bash
 
+## ADDING COLOR CONSTANTS ##
+
 # Reset
 NC='\033[0m'       # Text Reset
 
@@ -73,4 +75,5 @@ On_IPurple='\033[0;105m'  # Purple
 On_ICyan='\033[0;106m'    # Cyan
 On_IWhite='\033[0;107m'   # White
 
+## CHEATSHEET ##
 echo -e "I ${Red} love ${NC} git"
