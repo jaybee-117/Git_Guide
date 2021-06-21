@@ -13,7 +13,6 @@ For a much more beginner friendly installation do the following:
 ```
 $ wget https://raw.githubusercontent.com/jaybee-117/Git_Guide/main/git_guide.sh /usr/bin/git_guide.sh
 ```
-<br>
 And you're done!<br>
-To view the guide all you need to do after that is run it bu typing git\_guide from your terminal anywhere.<br>
+To view the guide all you need to do after that is run it by typing git\_guide from your terminal anywhere.<br>
 `$ git_guide.sh` 
