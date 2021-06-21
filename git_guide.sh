@@ -33,7 +33,7 @@ tput cup 17 15
 echo "\$git status"
 
 tput cup 19 15
-echo "\$git commit -a -m <commmit message>"
+echo "\$git commit -a -m "<commmit message>""
 
 tput smul
 tput bold
