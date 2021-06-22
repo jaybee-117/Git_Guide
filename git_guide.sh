@@ -56,7 +56,7 @@ echo "shows the state of the working directory and he staging area"
 tput cup 21 10
 echo "\$git commit -a -m \"<commmit message>\""
 tput cup 21 55
-echo "stage and commit the file"
+echo "stage and commit the files"
 
 ## GIT GLOBAL CONFIG COMMANDS
 tput smul
