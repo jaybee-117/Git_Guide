@@ -4,7 +4,7 @@ tput clear
 
 
 ## HEADING
-tput cup 3 50
+tput cup 1 50
 tput setaf 3
 tput rev
 echo "GIT CHEATSHEET"
@@ -14,66 +14,71 @@ tput sgr0
 ## BASIC GIT COMMANDS
 tput smul
 tput bold
-tput cup 5 17 
+tput cup 3 17 
 echo "Basic commands"
 tput sgr0
 
-tput cup 7 10
+tput cup 5 10
 echo "\$git init"
 tput cup 7 55
 echo "initiate a git repository"
 
-tput cup 9 10
+tput cup 7 10
 echo "\$git add <filename>"
 tput cup 9 55
 echo "add file to the staging area"
 
-tput cup 11 10
+tput cup 9 10
 echo "\$git add ."
-tput cup 11 55
+tput cup 9 55
 echo "add all files in the directory to the staging area"
 
-tput cup 13 10
+tput cup 11 10
 echo "\$git commit -m <commit message>"
-tput cup 13 55
+tput cup 11 55
 echo "commit the staged files with a commit message"
 
-tput cup 15 10
+tput cup 13 10
 echo "\$git diff"
-tput cup 15 55
+tput cup 13 55
 echo "shows the difference between the working directory and the commited file"
 
-tput cup 17 10
+tput cup 15 10
 echo "\$git diff --cached"
-tput cup 17 55
+tput cup 15 55
 echo "shows the difference between the commited and the staged file"
 
-tput cup 19 10
+tput cup 17 10
 echo "\$git status"
-tput cup 19 55 
+tput cup 17 55 
 echo "shows the state of the working directory and he staging area"
 
-tput cup 21 10
+tput cup 19 10
 echo "\$git commit -a -m \"<commmit message>\""
-tput cup 21 55
+tput cup 19 55
 echo "stage and commit the files"
 
 ## GIT GLOBAL CONFIG COMMANDS
 tput smul
 tput bold
-tput cup 23 17
+tput cup 21 17
 echo "Global user config"
 tput sgr0
 
-tput cup 25 10
+tput cup 23 10
 echo "\$git config --global user.name "username""
-tput cup 25 55
+tput cup 23 55
 echo "set username"
 
-tput cup 27 10
+tput cup 25 10
 echo "\$git config --global user.email "email""
-tput cup 27 55
+tput cup 25 55
 echo "set email"
+
+tput cup 27 10
+echo "\$git config --global credential.helper store"
+tput cup 27 55
+echo "save GitHub credentials"
 
 ## GITHUB REPOSITORY COMMANDS
 tput smul
